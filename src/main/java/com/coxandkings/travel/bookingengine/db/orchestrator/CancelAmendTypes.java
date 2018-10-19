@@ -1,0 +1,38 @@
+package com.coxandkings.travel.bookingengine.db.orchestrator;
+
+public interface CancelAmendTypes {
+	
+	public static final String JSON_PROP_AIR_CANCELTYPE_CANCELPAX  = "CANCELPASSENGER";
+	public static final String JSON_PROP_AIR_CANCELTYPE_CANCELJOU = "CANCELJOU";
+	public static final String JSON_PROP_AIR_CANCELTYPE_CANCELSSR= "CANCELSSR";
+	public static final String JSON_PROP_AIR_CANCELTYPE_FULLCANCEL  = "FULLCANCELLATION";
+	public static final String JSON_PROP_AIR_CANCELTYPE_CANCELODO = "CANCELODO";
+	public static final String JSON_PROP_AIR_AMENDTYPE_SSR = "ADDSSR";
+	public static final String JSON_PROP_AIR_AMENDTYPE_REM = "ADDREM";
+	public static final String JSON_PROP_AIR_AMENDTYPE_PIS ="UPDATEPIS";
+	public static final String  JSON_PROP_AIR_AMENDTYPE_UPDATEPAX = "UPDATEPASSENGER";
+	
+	public static final String JSON_PROP_ACCO_AMENDTYPE_ADDPAX = "ADDPASSENGER";
+	public static final String JSON_PROP_ACCO_AMENDTYPE_UPDATEPAX = "UPDATEPASSENGER";
+	public static final String JSON_PROP_ACCO_AMENDTYPE_UPDATESTAYDATES  = "UPDATESTAYDATES";
+	public static final String JSON_PROP_ACCO_AMENDTYPE_CHANGEPERIODOFSTAY = "CHANGEPERIODOFSTAY";
+	public static final String JSON_PROP_ACCO_AMENDTYPE_UPDATEROOM  = "UPDATEROOM";
+	public static final String JSON_PROP_ACCO_AMENDTYPE_CANCELPAX  = "CANCELPASSENGER";
+	public static final String JSON_PROP_ACCO_CANCELTYPE_CANCELROOM = "CANCELROOM";
+	public static final String JSON_PROP_ACCO_CANCELTYPE_FULLCANCEL  = "FULLCANCELLATION";
+	
+	
+	public static final String JSON_PROP_BUS_CANCELTYPE_CANCELPAX  = "CANCELPASSENGER";
+	public static final String JSON_PROP_BUS_CANCELTYPE_FULLCANCEL  = "FULLCANCELLATION";
+	
+	public static final String JSON_PROP_CAR_CANCELTYPE_ADDANCILLARY = "ADDANCILLARY";
+	public static final String JSON_PROP_CAR_CANCELTYPE_CANCELANCILLARY = "CANCELANCILLARY";
+	public static final String JSON_PROP_CAR_CANCELTYPE_PAXINFOUPDATE = "PASSENGERINFOUPDATE";
+	public static final String JSON_PROP_CAR_CANCELTYPE_ADDDRIVER = "ADDDRIVER";
+	public static final String JSON_PROP_CAR_CANCELTYPE_FULLCANCEL = "FULLCANCEL";
+	
+	
+	
+	
+
+}
